@@ -3,17 +3,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .navbar .logo{
     width: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .navbar-menu{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     list-style: none;
     gap: 20px;
     color: #49557e;
@@ -23,7 +23,7 @@
 
 .navbar-right{
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-items: center;
     gap: 40px;
 }
@@ -46,4 +46,22 @@
 .navbar .active{
     padding-bottom: 2px;
     border-bottom: 2px solid #49557e;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
 }
